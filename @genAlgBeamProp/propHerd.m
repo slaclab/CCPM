@@ -23,7 +23,7 @@
 
 function propHerd(this)
 
-for ii = 1:numHerd
+for ii = 1:this.herd_numHerd
     this.herd(ii).field_fList =...
         this.herd(ii).forwardProp_FreeSpace2D(this.init_zProp);
 end

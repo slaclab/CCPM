@@ -76,6 +76,6 @@ im2 = conv2(im2.^2,window,'valid') - avg2;
 
 mat = sqrt( 2 - ((2*avg12 + c(1))./(avg1 + avg2 + c(1))) - ((2*s12 + c(2))./(im1 + im2 + c(2))) );
 
-val = mean2(mat);
+val = mean(mat,'all');
 
 end
