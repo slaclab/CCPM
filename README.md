@@ -1,5 +1,5 @@
-# beamProp
-Full scalar wave propagation (spectral) using the Angular Spectrum Method.
+# Coherent Combination Propagation Method
+Full scalar wave propagation (spectral) using the Angular Spectrum Method. Further details can be found in: Lemons, Randy, and Sergio Carbajo. "Reconstruction and Optimization of Coherent Synthesis by Fourier Optics Based Genetic Algorithm." arXiv preprint arXiv:2005.13671 (2020).
 
 # Introduction
 This is intended to be the repo for the beam combination project as part of the L4A group in the LCLS division of SLAC National Accelerator Laboratory. The benefit of this code over existing ones is programmatic support for non-traditional beam definitions including common schemes of free space coherent beam combination. Additionally it contains a Genetic Algorithm that can be used to find combination parameters based on real world data collected on cameras.
